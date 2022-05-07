@@ -4,6 +4,7 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 import kaolin
+
 kaolin.ops.random.manual_seed(0, 0, 0)
 import torch
 from tqdm import tqdm
@@ -16,6 +17,7 @@ from lib.models import OctreeSDF
 from app.spc.NeuralSPC import NeuralSPC
 from lib.options import parse_options
 from sklearn.metrics import f1_score, precision_score, recall_score
+
 
 def sdf_to_classes(sdf):
     sdf[sdf < 0] = 0
@@ -50,8 +52,6 @@ def calculate_F1(dataloader, net):
 
     print(len(metrics_dict))
     return sum(metrics_dict['F1']) / len(metrics_dict['F1'])
-
-# ['47984.pth', '68380.pth', '79241.pth', '398259.pth', '73075.pth', '53159.pth', '72960.pth', '44234.pth', '64444.pth', '64764.pth', '68381.pth']
 
 if __name__ == "__main__":
     # TODO: For every feature save model in a folder and check sizes
@@ -99,7 +99,6 @@ if __name__ == "__main__":
         print('F1 occupancy near surface:')
         print(f1_occ)
 
-        # New dataset sampled with different mode
         test_dataloader_2 = resamples_dataloader(test_dataset_1, 'rand', num_samples)
         f1_bb = calculate_F1(test_dataloader_2, net)
         print('F1 in bounding volume:')

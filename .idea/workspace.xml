@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="685fa73f-9eda-4e65-8e4b-4d245fa0525c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/sdf-net/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/app/sdf_renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/app/sdf_renderer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/app/spc/evaluate_single.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/app/spc/evaluate_single.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/app/spc/fit_multiple_shapes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/datasets/MeshDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/datasets/MeshDataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/models/OctreeSDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/models/OctreeSDF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/renderer.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/renderer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/renderutils.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/renderutils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/torchgp/compute_sdf.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/torchgp/compute_sdf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/torchgp/point_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/torchgp/point_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/torchgp/sample_surface.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/torchgp/sample_surface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/tracer/SphereTracer.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/tracer/SphereTracer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdf-net/lib/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/sdf-net/lib/trainer.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="28Z4UOO83LBeX3foLOWMS0SYP4g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yuriiyelisieiev/Desktop/PycharmProjects/nglod&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sdf-net/app/spc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.evaluate_single">
+    <configuration name="evaluate_single" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nglod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sdf-net/app/spc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sdf-net/app/spc/evaluate_single.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="model2lods" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nglod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sdf-net/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sdf-net/app/model2lods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.evaluate_single" />
+        <item itemvalue="Python.model2lods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="685fa73f-9eda-4e65-8e4b-4d245fa0525c" name="Changes" comment="" />
+      <created>1651410788228</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651410788228</updated>
+      <workItem from="1651410789352" duration="48883000" />
+      <workItem from="1651662563641" duration="59558000" />
+      <workItem from="1651932882397" duration="1763000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nglod$evaluate_single.coverage" NAME="evaluate_single Coverage Results" MODIFIED="1651756149165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdf-net/app/spc" />
+    <SUITE FILE_PATH="coverage/nglod$model2lods.coverage" NAME="model2lods Coverage Results" MODIFIED="1651520166512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sdf-net/app" />
+  </component>
+</project>
